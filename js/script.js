@@ -10,7 +10,7 @@
     }
 
     const handleClickItem = e => {
-        e.currentTarget.classList.add(`selected`);
+        e.currentTarget.classList.toggle(`selected`);
     }
 
     init();
