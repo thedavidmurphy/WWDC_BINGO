@@ -76,86 +76,77 @@
 </head>
 
 <body>
-    <h1> SEPTEMBER 2018 BINGO</h1>
-    <main>
-        <div>
-            <p>"At our very core"</p>
-        </div>
-        <div>
-            <p>Something is 40% more than it was last year</p>
-        </div>
-        <div>
-            <p>Mention of how much sweet cash Apple has paid out to developers</p>
-        </div>
-        <div>
-            <p>"You're really going to/gonna love it"</p>
-        </div>
-        <div>
-            <p>"Available Today"</p>
-        </div>
-        <div>
-            <p>Eddy Cue never appears on stage</p>
-        </div>
-        <div>
-            <p>Jony Ive video voiceover</p>
-        </div>
-        <div>
-            <p>A presenter tells you how great Apple Park is</p>
-        </div>
-        <div>
-            <p>An awkward pause</p>
-        </div>
-        <div>
-            <p>Apple announces a major update for the App Store (iOS or Mac)</p>
-        </div>
-        <div>
-            <p>Apple features a product you won't be able to preorder this month</p>
-        </div>
-        <div>
-            <p>A demo fails</p>
-        </div>
-        <div style="background-image: url(https://www.apple.com/leadership/overview/executiveprofiles/ceo/image_large_2x.jpg);background-size:13rem 11rem;background-position:center;">
-            <p></p>
-        </div>
-        <div>
-            <p>An incredibly awkward handshake, hug, or transition between presenters</p>
-        </div>
-        <div>
-            <p>Game demo that looks so-so fun, but not outrageously fun</p>
-        </div>
-        <div>
-            <p>"$1 trillion"</p>
-        </div>
-        <div>
-            <p>A presenter throws shade at Google</p>
-        </div>
-        <div>
-            <p>Craig Federighi fumbles a sentence</p>
-        </div>
-        <div>
-            <p>A presenter spends too much time talking about new retail stores</p>
-        </div>
-        <div>
-            <p>"One More Thing"</p>
-        </div>
-        <div>
-            <p>Apple announces unexpected colors for a new product</p>
-        </div>
-        <div>
-            <p>A wild band appears to end the event</p>
-        </div>
-        <div>
-            <p>A presenter shows a list that has more than eight items on it</p>
-        </div>
-        <div>
-            <p>Heartwarming video about an Apple enthusiast overcoming a hardship with an Apple product</p>
-        </div>
-        <div>
-            <p>Someone under the age of 13 gets a shoutout from the stage</p>
-        </div>
-    </main>
-
+    <h1>Lifehacker's  Bingo (September 2018)</h1>
+<main>
     <script src="js/script.js"></script>
+    <script>
+
+var contents_b=new Array()
+
+//1) Specify content(s) to display and rotate (extend as desired)
+contents_b[0]='<div><p>"At our very core"</p></div>'
+contents_b[1]='<div><p>Something is 40% more than it was last year</p></div>'
+contents_b[2]='<div><p>Mention of how much sweet cash Apple has paid out to developers</p></div>'
+contents_b[3]='<div><p>"You&apos;re really going to/gonna love it"</p></div>'
+contents_b[4]='<div><p>"Available Today"</p></div>'
+contents_b[5]='<div><p>Eddy Cue never appears on stage</p></div>'
+contents_b[6]='<div><p>Jony Ive video voiceover</p></div>'
+contents_b[7]='<div><p>A presenter tells you how great Apple Park is</p></div>'
+contents_b[8]='<div><p>An awkward pause</p></div>'
+contents_b[9]='<div><p>Apple announces a major update for the App Store (iOS or Mac)</p></div>'
+contents_b[10]='<div><p>Apple features a product you won&apos;t be able to preorder this month</p></div>'
+contents_b[11]='<div><p>A demo fails</p></div>'
+
+var the_one_b
+var y=0
+var spacing_b=" "
+
+while (y<contents_b.length){
+the_one_b=Math.floor(Math.random()*contents_b.length)
+if (contents_b[the_one_b]!="_selected!"){
+document.write(contents_b[the_one_b]+spacing_b)
+contents_b[the_one_b]="_selected!"
+y++
+}
+}
+
+</script>
+<div style="background-image: url(https://www.apple.com/leadership/overview/executiveprofiles/ceo/image_large_2x.jpg);background-size:13rem 11rem;background-position:center;">
+    <p></p>
+</div>
+<script>
+
+var contents_b=new Array()
+
+//1) Specify content(s) to display and rotate (extend as desired)
+contents_b[0]='<div><p>An incredibly awkward handshake, hug, or transition between presenters</p></div>'
+contents_b[1]='<div><p>Game demo that looks so-so fun, but not outrageously fun</p></div>'
+contents_b[2]='<div><p>"$1 trillion"</p></div>'
+contents_b[3]='<div><p>A presenter throws shade at Google</p></div>'
+contents_b[4]='<div><p>Craig Federighi fumbles a sentence</p></div>'
+contents_b[5]='<div><p>A presenter spends too much time talking about new retail stores</p></div>'
+contents_b[6]='<div><p>"One More Thing"</p></div>'
+contents_b[7]='<div><p>Apple announces unexpected colors for a new product</p></div>'
+contents_b[8]='<div><p>A wild band appears to end the event</p></div>'
+contents_b[9]='<div><p>A presenter shows a list that has more than eight items on it</p></div>'
+contents_b[10]='<div><p>Heartwarming video about an Apple enthusiast overcoming a hardship with an Apple product</p></div>'
+contents_b[11]='<div><p>Someone under the age of 13 gets a shoutout from the stage</p></div>'
+
+var the_one_b
+var y=0
+var spacing_b=" "
+
+while (y<contents_b.length){
+the_one_b=Math.floor(Math.random()*contents_b.length)
+if (contents_b[the_one_b]!="_selected!"){
+document.write(contents_b[the_one_b]+spacing_b)
+contents_b[the_one_b]="_selected!"
+y++
+}
+}
+
+</script>
+</main>
 </body>
 
 </html>
